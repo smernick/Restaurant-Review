@@ -36,12 +36,7 @@ app.restaurant.controller = {
     })
   },
   show: function(event){
-    event.preventDefault
-    debugger;
-    var id = this.id
-    var restaurant = app.restaurant.model.findBy({id: id})[0]
-    
-
+ app.citation.controller.new( this)
 
   }
 }

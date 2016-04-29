@@ -1,4 +1,4 @@
-/*#mapCanvas {
+#mapCanvas {
   height: auto;
   position: absolute;
   bottom: 0;
@@ -6,14 +6,39 @@
   left: 0;
   right: 0;
 }
-*/
+
+
+#resultPanel {
+  z-index: 2;
+  position: fixed;
+  background-color: gray;
+  opacity: 0.8;
+  top:50px;
+  left:50px;
+
+
+}
+
+div.transbox {
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox ul {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
 
 #infoPanel {
   z-index: 2;
   position: fixed;
-  background-color: gray;
-  top:10 px ;
- right:10px;
+  bottom:250px;
+  left:50px;
+  height:50px;
+  width:200px;
 
 
 }
@@ -21,9 +46,9 @@
 #find {
   z-index: 2;
   position: fixed;
-  background-color: gray;
-  bottom:100px;
-  left:100px;
+  background-color: black;
+  bottom:75px;
+  left:50px;
   height:50px;
   width:200px;
 
